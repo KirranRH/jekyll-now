@@ -7,6 +7,16 @@ name: KirranRH
 
 # Short bio or description (displayed in the header)
 description: Testing Jekyll
+<button onclick="speakText()">🔊 Read This Page</button>
+
+<script>
+function speakText() {
+  const msg = new SpeechSynthesisUtterance();
+  msg.text = document.body.innerText;
+  window.speechSynthesis.speak(msg);
+}
+</script>
+
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
