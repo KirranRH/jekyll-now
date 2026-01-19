@@ -6,8 +6,8 @@ description: Testing Jekyll – accessibility experiments
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 # URL settings (safe defaults)
-baseurl: ""
-url: ""
+baseurl: "/jekyll-now"
+url: "https://kirranrh.github.io"
 
 # Blog URL style
 permalink: /:title/
