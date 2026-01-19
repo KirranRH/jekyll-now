@@ -1,18 +1,23 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="posts">
+<main id="content">
+  <h1>Welcome</h1>
+
+  <p>
+    This site is an experiment in simple, accessible design.
+  </p>
+
+  <h2>Blog posts</h2>
+
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    <article>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}
-</div>
+</main>
