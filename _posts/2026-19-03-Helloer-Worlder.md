@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: Test Post 2
+title: Test Post 1
 ---
 
 This is the text of the second hellow world post
