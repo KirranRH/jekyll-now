@@ -11,3 +11,8 @@ url: "https://kirranrh.github.io"
 
 # Blog URL style
 permalink: /:title/
+
+# Plugins for Jekyll on Netifly
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
